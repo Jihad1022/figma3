@@ -1,0 +1,127 @@
+/*font-family: 'Abril Fatface', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+/*common css start*/
+h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+/*common css end*/
+/*heading section css start*/
+#primary-nav #menu,ul,li,a{
+color: #353535;
+font-family: Poppins;
+padding: 5px 18px;
+position: relative;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%;
+}
+#primary-nav #menu ul li a::after{
+
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background-color: black;
+        bottom: 0;
+        right: 0;
+        transition: .3s;
+}
+
+#primary-nav #menu ul li a:hover::after{
+    width: 100%;
+    left: 0;
+}
+/*heading section css end*/
+
+/*banner section css start*/
+#banner .container h6{
+    color: #353535;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#banner .container h1{
+    color: #353535;
+font-family: PT Sans;
+font-size: 64px;
+font-style: normal;
+margin-top: 20px;
+font-weight: 700;
+line-height: normal;
+}
+#banner .container p{
+    color: #353535;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+margin-top: 20px;
+font-weight: 400;
+line-height: 180%; /* 36px */
+}
+#banner .container .text{
+    width: 200px;
+    height: 69px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    transition: .3s;
+    background-color: white;
+    border: 1px solid #353535;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+#banner .container .text:hover{
+    background-color: #Fc0;
+    color: aliceblue;
+    border: none;
+}
+#banner .button ul li{
+    margin-top: 50px;
+    color: #353535;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 39.6px */
+    padding-right: 10px;
+}
+#banner .button ul li a{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    line-height: 35px;
+    
+    
+    
+}
+#banner .button ul li a{
+ width: 40px;
+height: 40px;
+line-height: 35px;
+flex-shrink: 0;
+border-radius: 50%;
+text-align: center;
+background-color: aliceblue;
+border: 1px solid #353535;
+}
+#banner .button ul li a:hover{
+background-color: #Fc0;
+border: none;
+}
+/*banner section css start*/
